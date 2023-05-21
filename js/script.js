@@ -112,3 +112,14 @@ mostraR: function(correto){
 }
 
 appO.start();
+
+
+function somar1(){
+	var p1 = parseInt(document.getElementById('placar01').value);
+	document.getElementById('placar01').value = p1+1;
+}
+
+function somar2(){
+	var p1 = parseInt(document.getElementById('placar02').value);
+	document.getElementById('placar02').value = p1+1;
+}
